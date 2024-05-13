@@ -7,7 +7,7 @@
 > just copy and paste bellow command in your termux 
 * Note indian user must connect VPN
 ```
-curl -sSL https://raw.githubusercontent.com/Anon4You/Parrot-so/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/Anon4You/Parrot-os/main/install.sh | bash
 ```
 ## Fixes 
 * Pulseaudio sound fix ✅
