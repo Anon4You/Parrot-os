@@ -31,7 +31,7 @@ echo italling desktop
 cat > $CHROOT/root/.bashrc <<- EOF
 apt-get update && apt-get upgrade -y 
 apt install xfce4 xfce4-terminal xfce4-goodies xwayland dbus-x11 -y
-curl -sL https://raw.githubusercontent.com/Anon4You/kalilinux/main/xstart 
+curl -LO https://raw.githubusercontent.com/Anon4You/kalilinux/main/xstart 
 mv xstart /usr/bin && chmod +x /usr/bin/xstart
 rm .bashrc 
 mv .bashrcx .bashrc 
